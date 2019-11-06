@@ -6,6 +6,7 @@ import './IngredientForm.css';
 import LoadingIndicator from '../UI/LoadingIndicator';
 
 const IngredientForm = React.memo(props => {
+  console.log("RENDERING FORM");
 
   //    REGLAS DE LOS HOOKS:
   //1. Los hooks solo se pueden usar en functional components o en otros hooks
